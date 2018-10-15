@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C831440821742DC300788F65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C831440721742DC300788F65 /* AppDelegate.m */; };
+		C831440B21742DC300788F65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C831440A21742DC300788F65 /* ViewController.m */; };
+		C831440E21742DC300788F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C831440C21742DC300788F65 /* Main.storyboard */; };
+		C831441021742DC400788F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C831440F21742DC400788F65 /* Assets.xcassets */; };
+		C831441321742DC400788F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C831441121742DC400788F65 /* LaunchScreen.storyboard */; };
+		C831441621742DC400788F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C831441521742DC400788F65 /* main.m */; };
+		C831442021742DC500788F65 /* OneEnjoyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C831441F21742DC500788F65 /* OneEnjoyTests.m */; };
+		C831442B21742DC500788F65 /* OneEnjoyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C831442A21742DC500788F65 /* OneEnjoyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C831441C21742DC500788F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83143FB21742DC300788F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C831440221742DC300788F65;
+			remoteInfo = OneEnjoy;
+		};
+		C831442721742DC500788F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C83143FB21742DC300788F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C831440221742DC300788F65;
+			remoteInfo = OneEnjoy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C831440321742DC300788F65 /* OneEnjoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneEnjoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C831440621742DC300788F65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C831440721742DC300788F65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C831440921742DC300788F65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C831440A21742DC300788F65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C831440D21742DC300788F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C831440F21742DC400788F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C831441221742DC400788F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C831441421742DC400788F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C831441521742DC400788F65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C831441B21742DC500788F65 /* OneEnjoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneEnjoyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C831441F21742DC500788F65 /* OneEnjoyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneEnjoyTests.m; sourceTree = "<group>"; };
+		C831442121742DC500788F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C831442621742DC500788F65 /* OneEnjoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneEnjoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C831442A21742DC500788F65 /* OneEnjoyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneEnjoyUITests.m; sourceTree = "<group>"; };
+		C831442C21742DC500788F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C831440021742DC300788F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831441821742DC500788F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831442321742DC500788F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C83143FA21742DC300788F65 = {
+			isa = PBXGroup;
+			children = (
+				C831440521742DC300788F65 /* OneEnjoy */,
+				C831441E21742DC500788F65 /* OneEnjoyTests */,
+				C831442921742DC500788F65 /* OneEnjoyUITests */,
+				C831440421742DC300788F65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C831440421742DC300788F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C831440321742DC300788F65 /* OneEnjoy.app */,
+				C831441B21742DC500788F65 /* OneEnjoyTests.xctest */,
+				C831442621742DC500788F65 /* OneEnjoyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C831440521742DC300788F65 /* OneEnjoy */ = {
+			isa = PBXGroup;
+			children = (
+				C831440621742DC300788F65 /* AppDelegate.h */,
+				C831440721742DC300788F65 /* AppDelegate.m */,
+				C831440921742DC300788F65 /* ViewController.h */,
+				C831440A21742DC300788F65 /* ViewController.m */,
+				C831440C21742DC300788F65 /* Main.storyboard */,
+				C831440F21742DC400788F65 /* Assets.xcassets */,
+				C831441121742DC400788F65 /* LaunchScreen.storyboard */,
+				C831441421742DC400788F65 /* Info.plist */,
+				C831441521742DC400788F65 /* main.m */,
+			);
+			path = OneEnjoy;
+			sourceTree = "<group>";
+		};
+		C831441E21742DC500788F65 /* OneEnjoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C831441F21742DC500788F65 /* OneEnjoyTests.m */,
+				C831442121742DC500788F65 /* Info.plist */,
+			);
+			path = OneEnjoyTests;
+			sourceTree = "<group>";
+		};
+		C831442921742DC500788F65 /* OneEnjoyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C831442A21742DC500788F65 /* OneEnjoyUITests.m */,
+				C831442C21742DC500788F65 /* Info.plist */,
+			);
+			path = OneEnjoyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C831440221742DC300788F65 /* OneEnjoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C831442F21742DC500788F65 /* Build configuration list for PBXNativeTarget "OneEnjoy" */;
+			buildPhases = (
+				C83143FF21742DC300788F65 /* Sources */,
+				C831440021742DC300788F65 /* Frameworks */,
+				C831440121742DC300788F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneEnjoy;
+			productName = OneEnjoy;
+			productReference = C831440321742DC300788F65 /* OneEnjoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C831441A21742DC500788F65 /* OneEnjoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C831443221742DC500788F65 /* Build configuration list for PBXNativeTarget "OneEnjoyTests" */;
+			buildPhases = (
+				C831441721742DC500788F65 /* Sources */,
+				C831441821742DC500788F65 /* Frameworks */,
+				C831441921742DC500788F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C831441D21742DC500788F65 /* PBXTargetDependency */,
+			);
+			name = OneEnjoyTests;
+			productName = OneEnjoyTests;
+			productReference = C831441B21742DC500788F65 /* OneEnjoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C831442521742DC500788F65 /* OneEnjoyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C831443521742DC500788F65 /* Build configuration list for PBXNativeTarget "OneEnjoyUITests" */;
+			buildPhases = (
+				C831442221742DC500788F65 /* Sources */,
+				C831442321742DC500788F65 /* Frameworks */,
+				C831442421742DC500788F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C831442821742DC500788F65 /* PBXTargetDependency */,
+			);
+			name = OneEnjoyUITests;
+			productName = OneEnjoyUITests;
+			productReference = C831442621742DC500788F65 /* OneEnjoyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C83143FB21742DC300788F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = YiChenTec;
+				TargetAttributes = {
+					C831440221742DC300788F65 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C831441A21742DC500788F65 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C831440221742DC300788F65;
+					};
+					C831442521742DC500788F65 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C831440221742DC300788F65;
+					};
+				};
+			};
+			buildConfigurationList = C83143FE21742DC300788F65 /* Build configuration list for PBXProject "OneEnjoy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C83143FA21742DC300788F65;
+			productRefGroup = C831440421742DC300788F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C831440221742DC300788F65 /* OneEnjoy */,
+				C831441A21742DC500788F65 /* OneEnjoyTests */,
+				C831442521742DC500788F65 /* OneEnjoyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C831440121742DC300788F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831441321742DC400788F65 /* LaunchScreen.storyboard in Resources */,
+				C831441021742DC400788F65 /* Assets.xcassets in Resources */,
+				C831440E21742DC300788F65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831441921742DC500788F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831442421742DC500788F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C83143FF21742DC300788F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831440B21742DC300788F65 /* ViewController.m in Sources */,
+				C831441621742DC400788F65 /* main.m in Sources */,
+				C831440821742DC300788F65 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831441721742DC500788F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831442021742DC500788F65 /* OneEnjoyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C831442221742DC500788F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831442B21742DC500788F65 /* OneEnjoyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C831441D21742DC500788F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C831440221742DC300788F65 /* OneEnjoy */;
+			targetProxy = C831441C21742DC500788F65 /* PBXContainerItemProxy */;
+		};
+		C831442821742DC500788F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C831440221742DC300788F65 /* OneEnjoy */;
+			targetProxy = C831442721742DC500788F65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C831440C21742DC300788F65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C831440D21742DC300788F65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C831441121742DC400788F65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C831441221742DC400788F65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C831442D21742DC500788F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C831442E21742DC500788F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C831443021742DC500788F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneEnjoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YiChenTec.OneEnjoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C831443121742DC500788F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneEnjoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YiChenTec.OneEnjoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C831443321742DC500788F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneEnjoyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YiChenTec.OneEnjoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneEnjoy.app/OneEnjoy";
+			};
+			name = Debug;
+		};
+		C831443421742DC500788F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneEnjoyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YiChenTec.OneEnjoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneEnjoy.app/OneEnjoy";
+			};
+			name = Release;
+		};
+		C831443621742DC500788F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneEnjoyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YiChenTec.OneEnjoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneEnjoy;
+			};
+			name = Debug;
+		};
+		C831443721742DC500788F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneEnjoyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YiChenTec.OneEnjoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneEnjoy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C83143FE21742DC300788F65 /* Build configuration list for PBXProject "OneEnjoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C831442D21742DC500788F65 /* Debug */,
+				C831442E21742DC500788F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C831442F21742DC500788F65 /* Build configuration list for PBXNativeTarget "OneEnjoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C831443021742DC500788F65 /* Debug */,
+				C831443121742DC500788F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C831443221742DC500788F65 /* Build configuration list for PBXNativeTarget "OneEnjoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C831443321742DC500788F65 /* Debug */,
+				C831443421742DC500788F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C831443521742DC500788F65 /* Build configuration list for PBXNativeTarget "OneEnjoyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C831443621742DC500788F65 /* Debug */,
+				C831443721742DC500788F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C83143FB21742DC300788F65 /* Project object */;
+}
